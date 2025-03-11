@@ -1,0 +1,75 @@
+# BASICS OF MACHINE LEARNING
+## Basics Of Machine Learning Class Materials
+
+---
+
+# LINEAR REGRESSION – PRACTICE
+
+## PART 1
+
+### 1. READ THE DATA
+- Load the data from the CSV file **LifeExpectance** into a pandas DataFrame.
+
+### 2. PREPARE THE DATA
+- Split records into **train dataset** and **test dataset**.
+- You can use:
+  - `train_test_split` from `sklearn`
+  - Your own function
+  - Manually select records from the years **2003, 2008, and 2013** as the test set.
+- Show basic information:
+  - (a) Number of records in each dataset.
+  - (b) Histogram of life expectancy & statistical info (mean, std, etc.).
+  - (c) Identify **three countries with the highest life expectancy**.
+
+### 3. TRAIN SIMPLE REGRESSION MODELS
+- Train three **simple regression models** using:
+  - (a) **GDP**
+  - (b) **Total expenditure**
+  - (c) **Alcohol consumption**
+
+### 4. ANALYZE REGRESSION MODELS
+- Find **coefficients** (slope, intercept) and **scores** for each model.
+- Show **charts** with:
+  - Data points from the training set
+  - Regression lines
+  - Equation of the regression line on each chart
+
+### 5. MAKE PREDICTIONS & ANALYZE ERRORS
+- Use trained models (Step 3) to **predict life expectancy** for the **test set**.
+- Compute:
+  - **Average error** for all models
+  - **Standard deviation** of predictions
+
+### 6. SUMMARIZE RESULTS
+- Prepare a **report** summarizing:
+  - Findings from the data and charts
+  - **Conclusions** based on the analysis
+
+---
+
+## PART 2
+
+### 1. SELECT OPTIMAL PARAMETERS
+- Choose **four best parameters** for predicting life expectancy.
+- Justify your selection in the final report.
+
+### 2. TRAIN A MULTILINEAR REGRESSION MODEL
+- Train a **multilinear regression model** using the **four selected parameters**.
+
+### 3. EVALUATE THE MODEL
+- Print:
+  - **Coefficients** and **score** of the model
+  - **Predictions** for the test set
+  - **Statistical analysis of errors** (average, std, etc.)
+
+### 4. COMPARE RESULTS
+- Compare results with **Part 1, Step 5**.
+- Write **conclusions** on:
+  - Performance of the **multilinear regression model** vs. simple regression models.
+
+---
+
+## SUBMISSION
+- Ensure **code is well-documented and structured**.
+- Include a **summary** of findings in the final report.
+- Indicate **which tasks were completed** in the submission.
