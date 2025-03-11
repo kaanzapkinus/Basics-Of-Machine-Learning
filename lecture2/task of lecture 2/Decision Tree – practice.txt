@@ -1,0 +1,29 @@
+DECISION TREE – PRACTICE
+
+1. Access data from IRIS dataset by following these lines of code:
+   from sklearn.datasets import load_iris
+   data = load_iris()
+
+2. You can access features and labels in this dataset by following these lines of code:
+   X = data.data  # features
+   y = data.target  # class label
+
+3. Split the data using train_test_split method into train and test data
+
+4. Use DecisionTreeClassifier to train the model on your train data
+
+5. Use your trained model to predict classes for the train data
+
+6. Use your trained model to predict classes for the test data
+
+7. Calculate accuracy of prediction in case of the train data and test you can use method accuracy_score from sklearn
+
+8. What means the result that you get for the train data. Please explain shortly.
+
+9. You should note that every time you run your program you will get different results. You can overcome that by using random_state parameter in train_test_split method, which give you the same split every time. Check values of prediction for 10 different value of random_state with test_size = 0.25. Calculate mean and standard deviation.
+
+10. Test different split ratio that can be set in train_test_split method [0.1, 0.25, 0.5, 0.75, 0.9].
+
+11. Create the chart that will show accuracy_score in function of this ratio. You should choose tested values of ratio so the chart will be useful in making decision which ratio are better than other
+
+12. Draw the exemplary tree representing your model
