@@ -107,6 +107,6 @@ plt.legend()
 plt.show()
 
 # 6. Visualize the decision tree
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 5))
 plot_tree(clf, feature_names=data.feature_names, class_names=data.target_names, filled=True)
 plt.show()
