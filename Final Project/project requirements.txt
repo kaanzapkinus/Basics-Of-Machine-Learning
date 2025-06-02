@@ -1,0 +1,17 @@
+Basics of machine learning – final project
+    1. This project is realized individually. As usually, you can communicate and use any of the resources available to you in order to finish the project – however the project cannot be direct copy of another one and the Author should understand and be able to explain the code presented as his/her project. Following tutorials is acceptable, but the project should have some changes introduced by student and the original source should be clearly disclosed in the report.
+    2. The goal of the project is to find interesting dataset (or create one) and then apply chosen machine learning algorithm. Topics are not restricted, however I would like to accept chosen by you idea using one of our lessons (you can also approach me before or after your or others classes). Big dataset collection can be found on https://www.kaggle.com/datasets. Other interesting sources is for example https://data.worldbank.org/ or https://datasetsearch.research.google.com/.  Think what kind of problem you will be solving – is it regression problem, classification problem or maybe something else
+    3. The code part of the project should contain following stages:
+        a. Your familarization with the dataset and statistical analysis of the dataset (histograms, correlation matrix, statistical summary of features, analysis of missing values)
+        b. Cleaning of the dataset if necessary (removing rows with missing values, changing type of data etc.)
+        c. Standarization or normalization (if it is not necessary include in the report some sentences that support this claim)
+        d. Applying the machine learning algorithm (or few if you making a comparison) to the dataset (remember about at least splitting data into train and test set) and learning process. If the model contain parameters remember about their optimization.
+        e. Analysis of the result (think about metrics that you plan to use – they should be suitable to the problem that you are solving) – charts, metrics etc.
+    4. In the report you should contain following information:
+        a. Short description of the chosen dataset (including a link to it) – what it contains, what is your goal with the dataset
+        b. Statistical analysis of dataset (histograms, correlation matrix, etc.) - showing your tries of understanding the dataset. Add short conclusions after
+        c. What machine learning algorithm did you apply and why did you choose them? (If you followed some tutorials on the internet please put the links to them) How did you determine the parameters of these methods (did you use default or random or did you make some analysis behind the decision)?
+        d. Results/Comparison of algorithms (charts, accuracy, etc)
+        e. Final conclusions (how good was your approach? why do you get such good/average/bad results? What could be done to improve the results further?
+    5. Once the project is accepted by me with positive grade you should upload project onto Moodle – this is necessary to obtain positive grade. The upload should contain both code and report files and they should be named as follows: ML25_name_surname_index_code.py and ML25_name_surname_index_report.py
+    6. As usually showing your progress before final version is very important, and let you gain the feedback that will give you the idea how I will grade your final version.
