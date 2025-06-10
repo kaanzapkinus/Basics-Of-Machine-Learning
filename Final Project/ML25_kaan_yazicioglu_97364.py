@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.impute import SimpleImputer
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 #1 DATASET & CONTROLS
@@ -164,4 +163,11 @@ plt.title('Prediction Error Distribution')
 plt.xlabel('Prediction Error (TL)')
 plt.ylabel('Frequency')
 plt.grid(True, alpha=0.3)
+plt.show()
+
+plt.scatter(y_test, y_pred, color='blue', alpha=0.6)
+plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+plt.xlabel('Actual Rent Price')
+plt.ylabel('Predicted Rent Price')
+plt.title('Actual vs Predicted Rent Prices')
 plt.show()
